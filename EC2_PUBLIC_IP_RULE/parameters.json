@@ -1,0 +1,13 @@
+{
+  "Version": "1.0",
+  "Parameters": {
+    "RuleName": "EC2_PUBLIC_IP_RULE",
+    "Description": "EC2_PUBLIC_IP_RULE",
+    "SourceRuntime": "python3.12-lib",
+    "CodeKey": "EC2_PUBLIC_IP_RULEeu-west-1.zip",
+    "InputParameters": "{\"ExecutionRoleName\": \"lambda-config-assume-role\"}",
+    "OptionalParameters": "{}",
+    "SourceEvents": "AWS::EC2::Instance"
+  },
+  "Tags": "[]"
+}
